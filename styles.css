@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'MyFontBold';
-    src: url('assets/fonts/MyFont-Bold.ttf');
+    src: url('../assets/fonts/MyFont-Bold.ttf');
 }
 
 /* ===== RESET ===== */
@@ -30,7 +30,7 @@ body {
     height: 60vh;
     min-height: 350px;
 
-    background: url('../assets/images/banner.jpg') center/cover no-repeat;
+    background: url('assets/images/banner.jpg') center/cover no-repeat;
 }
 
 /* ===== TEXT BELOW BANNER ===== */
@@ -94,7 +94,7 @@ body {
     height: 60vh;
     min-height: 350px;
 
-    background: url('../assets/images/banner.jpg') center/cover no-repeat;
+    background: url('assets/images/banner.jpg') center/cover no-repeat;
 
     animation: zoomIn 4s ease forwards;
 }

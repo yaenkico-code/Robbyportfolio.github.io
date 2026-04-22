@@ -58,14 +58,17 @@ body {
     .hero {
         width: 100%;
         height: 15vh;
+        background: red;
     }
 
     .hero-title {
         font-size: 2rem;
+        background: blue;
     }
 
     .hero-subtitle {
         font-size: 1rem;
+        background: green;
     }
 }
 
@@ -163,6 +166,7 @@ body {
 @media (max-width: 768px) {
     .intro-container {
         flex-direction: column;
+        background: yellow;
     }
 }
 
@@ -320,11 +324,13 @@ body {
 
         row-gap: 25px;     /* 👈 reduced (was too big/uneven) */
         justify-items: center;
+        background: orange;
     }
 
     .reel-item {
         width: 70%;        /* 👈 slightly smaller (better UX) */
-        margin: 0 auto;    /* ensures perfect centering */
+        margin: 0 auto;
+        background: purple;    /* ensures perfect centering */
     }
 
 
@@ -335,11 +341,13 @@ body {
 
         row-gap: 25px;     /* 👈 consistent spacing */
         justify-items: center;
+        background: pink;
     }
 
     .video-item {
         width: 88%;        /* 👈 good balance */
         margin: 0 auto;
+        background: cyan;
     }
 
 }
@@ -420,10 +428,12 @@ body {
     .cta-text {
         font-size: 1.05rem;
         line-height: 1.5;
+        background: lime;
     }
 
     .cta-subtext {
         font-size: 0.9rem;
+        background: grey;
     }
 
 }
@@ -721,18 +731,22 @@ a {
 
     .hero-title {
         font-size: 2.5rem;
+        background: #ff4d4d;
     }
 
     .hero-subtitle {
         font-size: 1rem;
+        background: #4d79ff;
     }
 
     .section-title {
         font-size: 1.5rem;
+        background: #33cc99;
     }
 
     .cta-text {
         font-size: 1.05rem;
+        background: #ffcc00;
     }
 
 }

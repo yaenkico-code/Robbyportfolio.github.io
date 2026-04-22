@@ -732,13 +732,48 @@ a {
 }
 
 
-html, body {
-    margin: 0;
-    padding: 0;
+.video-grid,
+.reels-grid {
     width: 100%;
-    overflow-x: hidden;
+    max-width: 100%;
 }
 
-* {
-    outline: 1px solid red;
+.video-item,
+.reel-item {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.video-frame iframe,
+.reel-frame iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+@media (max-width: 768px) {
+
+    .video-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+        justify-items: center;
+    }
+
+    .video-item {
+        width: 90%;
+    }
+
+    .reels-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+        justify-items: center;
+    }
+
+    .reel-item {
+        width: 75%;
+    }
+
 }

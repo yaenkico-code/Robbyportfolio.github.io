@@ -1,15 +1,4 @@
-/* ===== CUSTOM FONTS ===== */
-/*@font-face {
-    font-family: 'MyFontRegular';
-    src: url('../assets/fonts/MyFont-Regular.ttf');
-}
 
-@font-face {
-    font-family: 'MyFontBold';
-    src: url('../assets/fonts/MyFont-Bold.ttf');
-}
-
-/* ===== RESET ===== */
 * {
     margin: 0;
     padding: 0;
@@ -53,8 +42,8 @@ body {
     opacity: 0.7;
 }
 
-/* ===== MOBILE ===== */
-@media  {
+/* ===== MOBILE ===== 
+@media{
     .hero {
         width: 100%;
         height: 15vh;
@@ -66,8 +55,7 @@ body {
 
     .hero-subtitle {
         font-size: 1rem;
-    }
-}
+    }}
 
 /* ===== TEXT FADE-IN ANIMATION ===== */
 .hero-text {
@@ -169,14 +157,6 @@ body {
 /* INTRO ANIMATION */
 
 
-<div class="intro-block">
-    <h3>Contact</h3>
-    <p>
-        Email: <a href="mailto:your@email.com">your@email.com</a><br>
-        Instagram: <a href="https://instagram.com/yourhandle" target="_blank">@yourhandle</a>
-    </p>
-</div>
-
 .intro-left {
     flex: 1;
     max-width: 500px;
@@ -192,7 +172,6 @@ body {
     padding: 10px 20px; /* slightly more space */
 }
 
-/* ===== VIDEO SECTION ===== */
 /* ===== VIDEO SECTION ===== */
 .videos {
     width: 100%;

@@ -274,13 +274,13 @@ body {
 }
 
 /* ===== MOBILE ===== */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 
     .reels-grid {
         margin-top: 30px;
         grid-template-columns: 1fr;
-        row-gap: 50px;     /* 👈 vertical gap (top/bottom) */
-        column-gap: 0;     /* no horizontal gap needed now */
+        row-gap: 50px;     /* 👈 vertical gap (top/bottom)
+        column-gap: 0;     /* no horizontal gap needed now 
         justify-items: center;
     }
 
@@ -294,21 +294,55 @@ body {
 
     .video-grid {
         grid-template-columns: 1fr;
-        row-gap: 35px;     /* 👈 same vertical spacing */
+        row-gap: 35px;     /* 👈 same vertical spacing 
         justify-items: center;
     }
 
     .video-item {
-        width: 85%; /* slightly wider than reels */
+        width: 85%; /* slightly wider than reels 
     }
 
-}
+} 
 
 /* .section-title {
     margin-top: 25px;
     margin-bottom: 10px;
     margin-left: 25px;
 } */
+
+ @media (max-width: 768px) {
+
+    /* ===== REELS ===== */
+    .reels-grid {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr;
+
+        row-gap: 25px;     /* 👈 reduced (was too big/uneven) */
+        justify-items: center;
+    }
+
+    .reel-item {
+        width: 70%;        /* 👈 slightly smaller (better UX) */
+        margin: 0 auto;    /* ensures perfect centering */
+    }
+
+
+    /* ===== LONG VIDEOS ===== */
+    .video-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        row-gap: 25px;     /* 👈 consistent spacing */
+        justify-items: center;
+    }
+
+    .video-item {
+        width: 88%;        /* 👈 good balance */
+        margin: 0 auto;
+    }
+
+}
 
 /* ===== CTA SECTION ===== */
 .cta {

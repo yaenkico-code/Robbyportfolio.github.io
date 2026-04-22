@@ -14,16 +14,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #ff6600;
 }
 
 /* ===== BODY ===== */
 body {
     width: 100%;
     font-family: 'MyFontRegular', sans-serif;
-   /* background: #000;
-    color: #fff;*/
-   background: #9933ff;
+    background: #000;
+    color: #fff;
 }
 
 /* ===== HERO (BANNER IMAGE) ===== */
@@ -33,7 +31,6 @@ body {
     min-height: 350px;
 
     background: url('assets/images/banner.jpg') center/cover no-repeat;
-    background: #ff66b2;
 }
 
 /* ===== TEXT BELOW BANNER ===== */
@@ -41,14 +38,12 @@ body {
     width: 100%;
     padding: 40px 20px;
     text-align: center;
-    background: #00cccc;
 }
 
 /* TITLE */
 .hero-title {
     font-family: 'MyFontBold';
     font-size: 3rem;
-background: #99ff33;
 }
 
 /* SUBTITLE */
@@ -56,7 +51,6 @@ background: #99ff33;
     margin-top: 10px;
     font-size: 1.2rem;
     opacity: 0.7;
-    background: #996633;
 }
 
 /* ===== MOBILE ===== */
@@ -64,17 +58,14 @@ background: #99ff33;
     .hero {
         width: 100%;
         height: 15vh;
-        background: red;
     }
 
     .hero-title {
         font-size: 2rem;
-        background: blue;
     }
 
     .hero-subtitle {
         font-size: 1rem;
-        background: green;
     }
 }
 
@@ -88,7 +79,6 @@ background: #99ff33;
     transform: translateY(30px);
     animation: fadeUp 1s ease forwards;
     animation-delay: 0.3s;
-    background: #d20101;
 }
 
 /* KEYFRAMES */
@@ -108,7 +98,6 @@ background: #99ff33;
     background: url('assets/images/banner.jpg') center/cover no-repeat;
 
     animation: zoomIn 4s ease forwards;
-    background: #ae0000;
 }
 
 @keyframes zoomIn {
@@ -124,7 +113,6 @@ background: #99ff33;
 .intro {
     width: 100%;
     padding: 60px 20px;
-    background: #444444;
 }
 
 /* CONTAINER */
@@ -134,44 +122,37 @@ background: #99ff33;
     display: flex;
     gap: 60px;           /* more breathing space */
     padding: 0 20px;     /* 👈 space on small screens */
-    background: #888888;
 }
 
 /* LEFT */
 .intro-left {
     flex: 1;
-    background: #222222;
 }
 
 .intro-heading {
     font-family: 'MyFontBold';
     font-size: 2rem;
     margin-bottom: 20px;
-background: #111111;
 }
 
 .intro-text {
     margin-bottom: 5px;
     opacity: 0.8;
     line-height: 1.6;
-    background: #ffffff;
 }
 
 /* RIGHT */
 .intro-right {
     flex: 1;
-    background: #000000;
 }
 
 .intro-block {
     margin-bottom: 25px;
-    background: #ff0000;
 }
 
 .intro-block h3 {
     font-family: 'MyFontBold';
     margin-bottom: 8px;
-    background: #00ffcc;
 }
 
 .intro-block p {
@@ -182,7 +163,6 @@ background: #111111;
 @media (max-width: 768px) {
     .intro-container {
         flex-direction: column;
-        background: yellow;
     }
 }
 
@@ -329,44 +309,7 @@ background: #111111;
     margin-bottom: 10px;
     margin-left: 25px;
 } */
-
- @media (max-width: 768px) {
-
-    /* ===== REELS ===== */
-    .reels-grid {
-        margin-top: 30px;
-        display: grid;
-        grid-template-columns: 1fr;
-
-        row-gap: 25px;     /* 👈 reduced (was too big/uneven) */
-        justify-items: center;
-        background: orange;
-    }
-
-    .reel-item {
-        width: 70%;        /* 👈 slightly smaller (better UX) */
-        margin: 0 auto;
-        background: purple;    /* ensures perfect centering */
-    }
-
-
-    /* ===== LONG VIDEOS ===== */
-    .video-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-
-        row-gap: 25px;     /* 👈 consistent spacing */
-        justify-items: center;
-        background: pink;
-    }
-
-    .video-item {
-        width: 88%;        /* 👈 good balance */
-        margin: 0 auto;
-        background: cyan;
-    }
-
-}
+ 
 
 /* ===== CTA SECTION ===== */
 .cta {
@@ -444,12 +387,10 @@ background: #111111;
     .cta-text {
         font-size: 1.05rem;
         line-height: 1.5;
-        background: lime;
     }
 
     .cta-subtext {
         font-size: 0.9rem;
-        background: grey;
     }
 
 }
@@ -747,22 +688,18 @@ a {
 
     .hero-title {
         font-size: 2.5rem;
-        background: #ff4d4d;
     }
 
     .hero-subtitle {
         font-size: 1rem;
-        background: #4d79ff;
     }
 
     .section-title {
         font-size: 1.5rem;
-        background: #33cc99;
     }
 
     .cta-text {
         font-size: 1.05rem;
-        background: #ffcc00;
     }
 
 }
@@ -792,4 +729,16 @@ a {
     height: 2px;
 
     background: linear-gradient(90deg, #d20101, transparent);
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    outline: 1px solid red;
 }
